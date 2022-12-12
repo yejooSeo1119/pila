@@ -1,0 +1,685 @@
+/*------------------------------------ reset start ------------------------------------*/
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display: block;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+body {
+    font-size: 16px;
+    line-height: 2em;
+    letter-spacing: -.3px;
+    color: #191919;
+    font-family: "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", "나눔 고딕", "Nanum Gothic", "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif, "RIDIBatang", 'Noto Sans KR', sans-serif;
+    ;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+small {
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border: 0;
+}
+
+button {
+    border: none;
+}
+
+/* margin -top */
+.mt150 {
+    margin-top: 150px !important
+}
+
+.mt100 {
+    margin-top: 100px !important
+}
+
+.mt50 {
+    margin-top: 50px !important
+}
+
+.mt30 {
+    margin-top: 30px !important
+}
+
+.mt20 {
+    margin-top: 20px !important
+}
+
+.mt15 {
+    margin-top: 15px !important
+}
+
+.mt10 {
+    margin-top: 10px !important
+}
+
+.mt5 {
+    margin-top: 10px !important
+}
+
+
+/* padding-top */
+.pt100 {
+    padding-top: 100px !important;
+}
+
+.pt50 {
+    padding-top: 50px !important;
+}
+
+.pt20 {
+    padding-top: 20px !important;
+}
+
+.pt10 {
+    padding-top: 10px !important;
+}
+
+
+.displaynone {
+    display: none;
+}
+
+.content .title {
+    text-align: center;
+}
+
+.indent {
+    text-indent: 1em;
+    padding: 10px 0;
+}
+
+/* form reset */
+
+form {
+    height: 100%;
+}
+
+input {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: 16px;
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", "나눔 고딕", "Nanum Gothic", "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif;
+}
+
+input,
+textarea,
+select,
+button,
+table {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #191919;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999999;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    outline: 0;
+}
+
+button {
+    font-size: 14px;
+    height: 44px;
+    display: inline-block;
+}
+
+input[type="password"] {
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", "나눔 고딕", "Nanum Gothic", "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif;
+}
+
+select {
+    height: 44px;
+    color: #555555;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    border-top: 1px solid #9a9a9a;
+    border-left: 1px solid #ababab;
+}
+
+textarea {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    outline: 0;
+}
+
+button,
+input[type='submit'],
+input[type='image'],
+input[type="button"] {
+    cursor: pointer;
+    border: 0;
+}
+
+
+/* table */
+.col10 {
+    width: 10%;
+}
+
+.col15 {
+    width: 15%;
+}
+
+.col20 {
+    width: 20%;
+}
+
+.col25 {
+    width: 25%;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col33 {
+    width: 33.333%;
+}
+
+.col35 {
+    width: 35%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.col45 {
+    width: 45%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col55 {
+    width: 55%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col65 {
+    width: 65%;
+}
+
+.col66 {
+    width: 66.666%;
+}
+
+.col70 {
+    width: 70%;
+}
+
+.col75 {
+    width: 75%;
+}
+
+.col80 {
+    width: 80%;
+}
+
+.col85 {
+    width: 85%;
+}
+
+.col90 {
+    width: 90%;
+}
+
+.col95 {
+    width: 95%;
+}
+
+.col100 {
+    width: 100%;
+}
+
+.col10,
+.col15,
+.col20,
+.col25,
+.col30,
+.col33,
+.col35,
+.col40,
+.col45,
+.col50,
+.col55,
+.col60,
+.col65,
+.col66,
+.col70,
+.col75,
+.col80,
+.col85,
+.col90,
+.col95,
+.col100 {
+    max-width: 400px;
+    margin: 0px 2px;
+}
+
+
+/* keyframes */
+@keyframes imgAni {
+    0% {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+}
+
+@keyframes fadeSide1 {
+    0% {
+        opacity: 0;
+        transform: translate3d(-20px, 0px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+.imgAni {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.imgAni.in-view {
+    animation-name: imgAni;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+.imgAni {
+    animation-name: imgAni;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+.fadeSide1 {
+    animation-name: fadeSide1;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+
+/*------------------------------------ reset end ------------------------------------*/
+span {
+    display: block;
+}
+
+.line {
+    width: 2px;
+    height: 150px;
+    margin: auto;
+    background-color: #191919;
+}
+
+.underline {
+    width: 150px;
+    height: 2px;
+    margin: auto;
+    background-color: #191919;
+}
+
+@media (min-width: 1200px) {
+    h5 {
+        font-size: 36px;
+        font-family: "RIDIBatang";
+    }
+
+    .wrap {
+        min-width: 1200px;
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        font-family: 'Noto Sans KR', sans-serif;
+
+    }
+
+    .content {
+        position: relative;
+        max-width: 1400px;
+        width: 100%;
+        margin: 0px auto;
+        border: 2px solid #dedede;
+    }
+
+    .mimg,
+    .m-title,
+    .m-textbox,
+    .mimg,
+    .m-text,
+    .title>.itembox>.m-text {
+        display: none;
+    }
+
+    .cont2 .imgbox {
+        width: 50%;
+        margin: auto;
+    }
+
+    .cont3 .imgbox {
+        margin: 0 50px;
+        width: 45%;
+        float: left;
+    }
+
+    .cont3 .textbox,
+    .cont4 .imgbox {
+        float: right;
+        width: 46%;
+        text-align: left;
+    }
+
+    .cont4 .textbox {
+        float: left;
+        margin-left: 150px;
+    }
+
+    .cont6 {
+        width: 60%;
+        margin: auto;
+    }
+
+    .cont6 .textbox {
+        text-align: left;
+    }
+
+    .cont6 .textbox img {
+        width: 850px;
+    }
+
+    .cont7 img {
+        width: 700px;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrap {
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        font-family: 'Noto Sans KR', sans-serif;
+
+    }
+
+    .content {
+        position: relative;
+        max-width: 900px;
+        width: 100%;
+        margin: 0px auto;
+        border: 2px solid #dedede;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 35px;
+    }
+
+    h5 {
+        font-size: 25px;
+        font-family: "RIDIBatang";
+    }
+
+    .mimg {
+        display: none;
+    }
+
+    .textbox {
+        width: 600px;
+        margin: auto;
+    }
+
+    .cont1 .imgbox img {
+        width: 700px;
+        margin: auto;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    .cont3 .textbox img,
+    .cont2 .m-textbox,
+    .title>.itembox>.m-text {
+        display: none;
+    }
+
+    .cont3 .imgbox img {
+        width: 500px;
+    }
+
+    .m-title {
+        padding-top: 50px;
+    }
+
+    .cont4 .textbox ol li {
+        text-align: center;
+    }
+
+    .cont4 .textbox {
+        padding-bottom: 50px;
+    }
+
+    .cont6 .textbox {
+        text-align: left;
+    }
+
+    .cont6 .textbox img {
+        width: 100%;
+    }
+
+    .cont7 img {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrap {
+        max-width: 380px;
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 14px;
+    }
+
+    .content {
+        position: relative;
+        width: 100%;
+        margin: 0px auto;
+        border: 2px solid #dedede;
+    }
+
+    .mimg {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cont1 .imgbox,
+    .cont2 .imgbox,
+    .cont1 .textbox,
+    .title>.itembox>h4 {
+        display: none;
+    }
+
+    .cont3 .textbox img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-family: "RIDIBatang";
+    }
+
+    strong {
+        font-size: 17px;
+    }
+
+    .cont2 .textbox {
+        display: none;
+    }
+
+    .cont3 .imgbox img {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .cont3 .text {
+        display: none;
+    }
+
+    .cont4 .textbox {
+        margin-bottom: 50px;
+    }
+
+    .cont4 .textbox ol li {
+        text-align: center;
+
+    }
+
+    .cont4 img,
+    .cont5 img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cont6 img {
+        width: 85%;
+        margin: auto;
+    }
+
+    .cont7 img,
+    footer img {
+        width: 85%;
+        margin: auto;
+    }
+}
